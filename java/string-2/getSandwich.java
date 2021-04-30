@@ -21,7 +21,7 @@ public String getSandwich(String str) {
         }
     }
                                                           
-    if(first != -1 && last != -1 && first != last)
+    if( first != last)
         return str.substring(first + 5, last);
                                                                     
     return "";
